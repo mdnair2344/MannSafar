@@ -14,7 +14,7 @@ warnings.filterwarnings("ignore", message="TypedStorage is deprecated")
 
 # Flask app with static folder for serving audio
 app = Flask(__name__, static_folder="static")
-CORS(app, origins=["https://mannsafar-youthmentalwellness.onrender.com"])
+CORS(app, resources={r"/*":{origins=["https://mannsafar-youthmentalwellness.onrender.com", "http://localhost:5173"]}})
 # Gemini API key setup
 gemini_api_key = "AIzaSyBtOjFWLdNqm3PrmJFSvSuKVcTiwc6Oaho"
 if not gemini_api_key:
