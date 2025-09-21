@@ -20,4 +20,7 @@ export default defineConfig(({ mode }) => ({
       "@assets": path.resolve(__dirname, "./src/assets"),
     },
   },
+  preview: {
+    allowedHosts: ['mannsafar-youthmentalwellness.onrender.com']
+  },
 }));
