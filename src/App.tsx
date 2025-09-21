@@ -38,7 +38,7 @@ import { supabase } from "@/integrations/supabase/client";
 import { ParentsJournal } from './pages/ParentsJournal';
 
 import HappyBalloonPop from "@/pages/games/HappyBalloonPop";
-import SadRaindropCatch from "@/pages/games/SadRaindropCatch";
+import SadRaindropCatch from "@/pages/games/SadRainDropCatch";
 import DemotivatedClimber from "@/pages/games/DemotivatedMotivationMountain";
 import AngryBubbleSmash from "@/pages/games/AngryBubbleSmash";
 import CarefreeCloudPainter from "@/pages/games/CarefreeCloudPainter";
