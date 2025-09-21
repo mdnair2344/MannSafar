@@ -13,7 +13,8 @@ console.log('Custom signup function initialized.');
 
 // Define CORS helper functions
 const allowedOrigins = [
-  'http://localhost:8080' // Add your deployed site URL here later
+  'http://localhost:8080',
+  'https://mannsafar-youthmentalwellness.onrender.com/'
 ];
 
 function getOrigin(req) {
